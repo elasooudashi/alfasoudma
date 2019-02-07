@@ -25,5 +25,4 @@ before_script:
 build:
    stage: build
    script:
-     - docker build -t my-docker-image .
-     - docker run my-docker-image /script/to/run/tests
+     - docker build -t carlad/sinatra .
